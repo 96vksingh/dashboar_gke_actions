@@ -1,12 +1,12 @@
 name: 'deploy on gke'
 author: 'Vishal Kumar Singh'
 
-description: 'Deploy your simple html,css web page on gke'
+description: 'Deploy and test your simple html,css,js on gke'
 
 branding:
   icon: 'clipboard'
   color: 'blue'
-  
+
 runs:
   using: 'docker'
   image: 'Dockerfile'
