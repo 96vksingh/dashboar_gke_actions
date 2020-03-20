@@ -7,6 +7,15 @@ branding:
   icon: 'clipboard'
   color: 'blue'
 
+application_credentials:
+  description: base64 encoded GCP application credentials (https://cloud.google.com/sdk/docs/authorizing)
+  require: true
+project_id:
+  description: name of the GCP Project where the GKE K8s cluster resides. 
+  require: true
+cluster_name:
+  description: The name of your GKE K8s cluster
+  require: true
 runs:
   using: 'docker'
   image: 'Dockerfile'
