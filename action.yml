@@ -1,0 +1,8 @@
+name: 'deploy on gke'
+author: 'Vishal Kumar Singh'
+
+description: 'Deploy your simple html,css web page on gke'
+
+runs:
+  using: 'docker'
+  image: 'Dockerfile'
