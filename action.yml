@@ -3,6 +3,10 @@ author: 'Vishal Kumar Singh'
 
 description: 'Deploy your simple html,css web page on gke'
 
+branding:
+  icon: 'clipboard'
+  color: 'blue'
+  
 runs:
   using: 'docker'
   image: 'Dockerfile'
